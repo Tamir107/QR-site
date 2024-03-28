@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 15%;
+    margin: auto;
+    margin-top: 8%;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-wrap: wrap;
+    /* min-width: 375px; */
+}
+
+.container p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+    color: hsl(220, 15%, 55%);
+}
+
+.container h2 {
+    margin-bottom: 0;
+}
+
+.container img {
+    border-radius: 0.5rem;
+}
